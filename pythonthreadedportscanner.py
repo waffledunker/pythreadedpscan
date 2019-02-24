@@ -4,7 +4,7 @@ from queue import Queue
 
 print_lock = threading.Lock()
 
-target = 'yeniakit.com.tr'
+target = 'targetURL'
 port = 80
 
 def portscan(port):
